@@ -1,54 +1,37 @@
-**Product Classification using Language Models**
+🛒 Product Classification using Language Models
+📋 Overview
+This project demonstrates the use of a language model to classify products into their respective departments based on the Instacart dataset. It leverages the Falcon-7B model to generate predictions from product names.
 
-**Overview**
+✨ Features
+🔗 Dataset Merging: Combines product and department datasets for effective training.
+🛠️ Model Training & Fine-tuning: Utilizes advanced libraries like Transformers and PEFT for model training and optimization.
+🧾 Product Classification Pipeline: Implements a robust text generation pipeline to classify products.
+📊 Model Evaluation: Assesses performance using a separate test dataset.
+🛠️ Technologies Used
+🐍 Python
+🗃️ Pandas
+🔄 Transformers
+🎛️ PEFT
+📂 Datasets
+📂 Dataset
+The datasets used were sourced from Kaggle's Instacart Market Basket Analysis. The key files include:
 
-This project demonstrates the use of a language model to classify products into their respective departments based on the Instacart dataset. It leverages the Falcon-7B model to generate text predictions from product names.
+📦 orders.csv: Contains order-level information.
+📋 products.csv: Includes product details like names and IDs.
+🏷️ departments.csv: Lists department information associated with each product.
+⚙️ Installation & Prerequisites
+Ensure the following dependencies are installed before running the project:
 
-**Features**
+🐍 Python 3.6 or higher
+📦 Pip
+To install required libraries, run:
 
-1.Merges product and department datasets for training.
+bash
+Copy code
+pip install -r requirements.txt
+🙌 Acknowledgments
+Special thanks to:
 
-2.Utilizes advanced machine learning libraries like Transformers and PEFT for model training and fine-tuning.
-
-3.Implements a text generation pipeline for product classification.
-
-4.Evaluates model performance against a test dataset.
-
-**Technologies Used**
-
-1.Python
-
-2.Pandas
-
-3.Transformers
-
-4.PEFT
-
-5.Datasets
-
-**Dataset**
-
-The datasets used in this project were downloaded from Kaggle's Instacart Market Basket Analysis. The main files used include:
-
-**orders.csv:** Contains order information.
-
-**products.csv:** Contains product information, including names and IDs.
-
-**departments.csv:** Contains department information for each product.
-
-**Prerequisites**
-
-Make sure you have the following installed:
-
-1.Python 3.6 or higher
-
-2.Pip
-
-
-**Acknowledgments**
-
-Hugging Face Transformers
-
-PEFT
-
-Kaggle Instacart Market Basket Analysis
+🤗 Hugging Face for their Transformers library.
+🛠️ PEFT for providing efficient fine-tuning options.
+🏆 Kaggle for the Instacart Market Basket dataset.
