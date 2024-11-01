@@ -1,52 +1,61 @@
-**🛒 Product Classification using Language Models**
-
-**📋 Overview:**
-This project demonstrates the use of a language model to classify products into their respective departments based on the Instacart dataset. It leverages the Falcon-7B model to generate predictions from product names.
-
-**✨ Features:**
-
-🔗 Dataset Merging: Combines product and department datasets for effective training.
-
-🛠️ Model Training & Fine-tuning: Utilizes advanced libraries like Transformers and PEFT for model training and optimization.
-
-🧾 Product Classification Pipeline: Implements a robust text generation pipeline to classify products.
-
-📊 Model Evaluation: Assesses performance using a separate test dataset.
-
-
-**🛠️ Technologies Used:**
-
-🐍 Python
-🗃️ Pandas
-🔄 Transformers
-🎛️ PEFT
-📂 Datasets
+# 🛒 Product Classification using Language Models
 
 
 
-**📂 Dataset:**
+---
 
-The datasets used were sourced from Kaggle's Instacart Market Basket Analysis. The key files include:
+## 📋 Overview
 
-📦 orders.csv: Contains order-level information.
+Welcome to the **Product Classification using Language Models** project! This initiative demonstrates the power of language models in classifying products into their respective departments based on the **Instacart dataset**. Utilizing the **Falcon-7B** model, we generate predictions directly from product names.
 
-📋 products.csv: Includes product details like names and IDs.
+---
 
-🏷️ departments.csv: Lists department information associated with each product.
+## ✨ Features
+
+- **🔗 Dataset Merging**: Seamlessly combines product and department datasets for effective training.
+- **🛠️ Model Training & Fine-tuning**: Employs advanced libraries like **Transformers** and **PEFT** for optimal model training and tuning.
+- **🧾 Product Classification Pipeline**: Implements a robust text generation pipeline for accurate product classification.
+- **📊 Model Evaluation**: Thoroughly assesses performance using a dedicated test dataset.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology         | Description                                     |
+|--------------------|-------------------------------------------------|
+| 🐍 **Python**       | Programming language used for development.     |
+| 🗃️ **Pandas**      | Data manipulation and analysis.                |
+| 🔄 **Transformers** | Library for implementing advanced language models. |
+| 🎛️ **PEFT**        | Provides efficient fine-tuning options.        |
+| 📂 **Datasets**     | Manages dataset loading and processing.        |
+
+---
+
+## 📂 Dataset
+
+The datasets for this project were sourced from **Kaggle's Instacart Market Basket Analysis**. The key files include:
+
+- **📦 orders.csv**: Contains order-level information.
+- **📋 products.csv**: Includes product details such as names and IDs.
+- **🏷️ departments.csv**: Lists department information associated with each product.
+
+---
+
+## ⚙️ Installation & Prerequisites
+
+Before running the project, ensure you have the following dependencies installed:
+
+- 🐍 **Python 3.6 or higher**
+- 📦 **Pip**
+
+### Installation Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/product-classification.git
 
 
-
-**⚙️ Installation & Prerequisites:**
-
-Ensure the following dependencies are installed before running the project:
-
-🐍 Python 3.6 or higher
-
-📦 Pip
-
-
-
-**🙌 Acknowledgments:**
+## **🙌 Acknowledgments:**
 
 
 🤗 Hugging Face for their Transformers library.
